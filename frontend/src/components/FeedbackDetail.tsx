@@ -17,6 +17,7 @@ export default function FeedbackDetail() {
   const navigate = useNavigate();
   
   const feedbackInicial = location.state?.item as Feedback;
+  console.log(feedbackInicial)
   const [feedback, setFeedback] = useState<Feedback | null>(feedbackInicial || null);
 
   if (!feedback) {

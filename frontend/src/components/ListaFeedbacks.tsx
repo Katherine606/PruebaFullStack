@@ -42,7 +42,7 @@ function ListaFeedbacks() {
       return;
     }
     cargarDatos();
-  }, [navigate]);
+  }, []);
 
   const cerrarSesion = () => {
     localStorage.removeItem("token");

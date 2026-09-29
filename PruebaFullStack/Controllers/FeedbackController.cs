@@ -33,12 +33,7 @@ namespace PruebaFullStack.Controllers
 
             int usuarioId = int.Parse(usuarioIdClaim);
 
-            var feedback = await _feedbackService.CrearFeedbackAsync(
-                dto.Titulo,
-                dto.Descripcion,
-                dto.Categoria,
-                dto.Estado,
-                usuarioId); 
+            var feedback = await _feedbackService.CrearFeedbackAsync(dto.Titulo,dto.Descripcion,dto.Categoria,dto.Estado,usuarioId); 
 
             return Ok(feedback);
         }
@@ -63,5 +58,4 @@ namespace PruebaFullStack.Controllers
            return Ok(feedback);
         }
     }
-
 }

@@ -12,7 +12,7 @@ public class FeedbackRepository
 
     public async Task<IEnumerable<Feedback>> ObtenerTodosAsync()
     {
-        return await _context.Feedbacks.Include(f => f.Usuario).ToListAsync();
+        return await _context.Feedbacks.ToListAsync();
     }
 
     public async Task<Feedback?> ObtenerPorIdAsync(int id)

@@ -317,3 +317,4 @@ C:\Users\kmendez\source\repos\PruebaFullStack\PruebaFullStack\obj\Debug\net9.0\r
 C:\Users\kmendez\source\repos\PruebaFullStack\PruebaFullStack\obj\Debug\net9.0\PruebaFullStack.pdb
 C:\Users\kmendez\source\repos\PruebaFullStack\PruebaFullStack\obj\Debug\net9.0\PruebaFullStack.genruntimeconfig.cache
 C:\Users\kmendez\source\repos\PruebaFullStack\PruebaFullStack\obj\Debug\net9.0\ref\PruebaFullStack.dll
+C:\Users\kmendez\source\repos\PruebaFullStack\PruebaFullStack\obj\Debug\net9.0\PruebaFullStack.sourcelink.json

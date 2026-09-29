@@ -15,6 +15,7 @@ namespace PruebaFullStack.Models
         public int Votos { get; set; } = 0;
 
         public int UsuarioId { get; set; }
+
         [ForeignKey("UsuarioId")]
         public Usuario Usuario { get; set; }
     }
